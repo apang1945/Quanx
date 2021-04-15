@@ -1,0 +1,4 @@
+[MITM]
+  hostname = sleep.zouluzhuan.com
+[Script]
+http-request http://sleep.zouluzhuan.com/api/member/randCoin script-path=https://raw.githubusercontent.com/age174/-/main/smz.js, requires-body=true, timeout=10, tag=睡眠赚
