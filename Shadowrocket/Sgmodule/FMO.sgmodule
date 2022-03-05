@@ -4,3 +4,11 @@
 # > HDOBOX去广告
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,applvn.com,REJECT
+# > Disney+
+USER-AGENT,Disney+*,Disney+
+DOMAIN-SUFFIX,bamgrid.com,Disney+
+DOMAIN-SUFFIX,disneyplus.com,Disney+
+DOMAIN-SUFFIX,disney-plus.net,Disney+
+DOMAIN-SUFFIX,disneystreaming.com,Disney+
+DOMAIN-SUFFIX,dssott.com,Disney+
+DOMAIN,cdn.registerdisney.go.com,Disney+
