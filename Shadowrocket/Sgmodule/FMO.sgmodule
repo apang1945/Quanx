@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,disneystreaming.com,Disney+
 DOMAIN-SUFFIX,dssott.com,Disney+
 DOMAIN,cdn.registerdisney.go.com,Disney+
 # > TikTok
-USER-AGENT,TikTok*
+USER-AGENT,TikTok*,TikTok
 DOMAIN-SUFFIX,byteoversea.com,TikTok
 DOMAIN-SUFFIX,ibytedtos.com,TikTok
 DOMAIN-SUFFIX,ipstatp.com,TikTok
