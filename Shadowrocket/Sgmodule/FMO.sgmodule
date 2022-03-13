@@ -25,3 +25,8 @@ DOMAIN-SUFFIX,tik-tokapi.com,TikTok
 DOMAIN-SUFFIX,tiktokcdn.com,TikTok
 DOMAIN-SUFFIX,tiktokv.com,TikTok
 DOMAIN-KEYWORD,tiktokcdn-,TikTok
+# > Telegram
+DOMAIN-SUFFIX,t.me,Telegram
+IP-CIDR,91.108.16.0/22,Telegram,no-resolve
+IP-CIDR,91.108.56.0/22,Telegram,no-resolve
+IP-CIDR,2001:B28:F23F::/48,Telegram,no-resolve
