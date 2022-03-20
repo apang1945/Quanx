@@ -1,0 +1,7 @@
+[Script]
+http-request https:\/\/setting.youtube.com\/\?action=(g|s)et script-path=https://raw.githubusercontent.com/Neurogram-R/Surge/master/Dualsub.js, requires-body=true, timeout=10, tag=YouTube-Dualsub-Setting, enable = true
+
+http-response https:\/\/www.youtube.com\/api\/timedtext.+ script-path=https://raw.githubusercontent.com/Neurogram-R/Surge/master/Dualsub.js, requires-body=true, timeout=10, tag=YouTube-Dualsub, enable = true
+
+[MITM]
+hostname = *.youtube.com
