@@ -43,7 +43,14 @@ DOMAIN-SUFFIX,nflxvideo.net,Netflix
 DOMAIN-KEYWORD,netflixdnstest,Netflix
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
-
+# > Weibo
+DOMAIN-SUFFIX,weibo.com,Direct
+DOMAIN-SUFFIX,sinajs.cn,Direct
+DOMAIN-SUFFIX,sina.com.cn,Direct
+DOMAIN-SUFFIX,sinaimg.cn,Direct
+DOMAIN-SUFFIX,weibocdn.com,Direct
+DOMAIN-SUFFIX,weibo.cn,Direct
+DOMAIN-KEYWORD,weibo,Direct
 
 
 
