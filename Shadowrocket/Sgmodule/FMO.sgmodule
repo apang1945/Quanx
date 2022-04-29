@@ -51,6 +51,15 @@ DOMAIN-SUFFIX,sinaimg.cn,Direct
 DOMAIN-SUFFIX,weibocdn.com,Direct
 DOMAIN-SUFFIX,weibo.cn,Direct
 DOMAIN-KEYWORD,weibo,Direct
+# > Douyin
+DOMAIN-KEYWORD,douyin,Direct
+DOMAIN-KEYWORD,amemv,Direct
+DOMAIN-KEYWORD,zijie,Direct
+DOMAIN-KEYWORD,zjcdn,Direct
+
+
+
+
 
 
 
