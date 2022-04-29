@@ -2,3 +2,16 @@
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
 host-suffix, 77710086.xyz, direct
+# > Weibo
+host-SUFFIX,weibo.com,Direct
+host-SUFFIX,sinajs.cn,Direct
+host-SUFFIX,sina.com.cn,Direct
+host-SUFFIX,sinaimg.cn,Direct
+host-SUFFIX,weibocdn.com,Direct
+host-SUFFIX,weibo.cn,Direct
+host-KEYWORD,weibo,Direct
+# > Douyin
+host-KEYWORD,douyin,Direct
+host-KEYWORD,amemv,Direct
+host-KEYWORD,zijie,Direct
+host-KEYWORD,zjcdn,Direct
