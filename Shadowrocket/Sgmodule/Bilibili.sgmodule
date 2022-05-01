@@ -1,0 +1,11 @@
+DOMAIN,api.biliapi.com,流媒体
+DOMAIN,api.biliapi.net,流媒体
+DOMAIN,api.bilibili.com,流媒体
+DOMAIN,app.biliapi.com,流媒体
+DOMAIN,app.biliapi.net,流媒体
+DOMAIN,app.bilibili.com,流媒体
+DOMAIN,grpc.biliapi.net,流媒体
+DOMAIN,m.bilibili.com,流媒体
+DOMAIN,upos-hz-mirrorakam.akamaized.net,流媒体
+DOMAIN,www.bilibili.com,流媒体
+DOMAIN-KEYWORD,cn-hk-eq-bcache-,流媒体
