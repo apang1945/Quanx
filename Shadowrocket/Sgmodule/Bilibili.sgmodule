@@ -1,3 +1,7 @@
+#!name=Bilibili
+#!desc=港台番剧
+
+[Rule]
 DOMAIN,api.biliapi.com,流媒体
 DOMAIN,api.biliapi.net,流媒体
 DOMAIN,api.bilibili.com,流媒体
