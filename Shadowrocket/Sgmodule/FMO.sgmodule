@@ -43,37 +43,37 @@ DOMAIN-SUFFIX,nflxvideo.net,Netflix
 DOMAIN-KEYWORD,netflixdnstest,Netflix
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
-
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN,api.bilibili.com 
-DOMAIN,api.bilibili.tv
-DOMAIN,app.bilibili.com
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN,api.live.bilibili.com
-DOMAIN,api.vc.bilibili.com
-DOMAIN,passport.bilibili.com
-DOMAIN,live-trace.bilibili.com
-DOMAIN,message.bilibili.com
-DOMAIN,cm.bilibili.com
+# ======= 哔哩哔哩 ======= #
+DOMAIN-SUFFIX,biliapi.net,Direct
+DOMAIN,api.bilibili.com,Direct
+DOMAIN,api.bilibili.tv,Direct
+DOMAIN,app.bilibili.com,Direct
+DOMAIN-SUFFIX,biliapi.com,Direct
+DOMAIN,api.live.bilibili.com,Direct
+DOMAIN,api.vc.bilibili.com,Direct
+DOMAIN,passport.bilibili.com,Direct
+DOMAIN,live-trace.bilibili.com,Direct
+DOMAIN,message.bilibili.com,Direct
+DOMAIN,cm.bilibili.com,Direct
 # ======= 百度贴吧 ======= #
-DOMAIN,tieba.baidu.com
-DOMAIN,tbmsg.baidu.com
-DOMAIN,tb5.bdstatic.com
-DOMAIN,fclog.baidu.com
-DOMAIN,gsp0.baidu.com
-DOMAIN,hm.baidu.com
-DOMAIN,www.baidu.com
+DOMAIN,tieba.baidu.com,Direct
+DOMAIN,tbmsg.baidu.com,Direct
+DOMAIN,tb5.bdstatic.com,Direct
+DOMAIN,fclog.baidu.com,Direct
+DOMAIN,gsp0.baidu.com,Direct
+DOMAIN,hm.baidu.com,Direct
+DOMAIN,www.baidu.com,Direct
 # ======= 微信 ======= #
-DOMAIN,szshort.weixin.qq.com
-DOMAIN,szextshort.weixin.qq.com
-DOMAIN,szminorshort.weixin.qq.com
-DOMAIN,mp.weixin.qq.com
+DOMAIN,szshort.weixin.qq.com,Direct
+DOMAIN,szextshort.weixin.qq.com,Direct
+DOMAIN,szminorshort.weixin.qq.com,Direct
+DOMAIN,mp.weixin.qq.com,Direct
 # ======= 知乎 ======= #
-#DOMAIN,zhihu-web-analytics.zhihu.com
-#DOMAIN,www.zhihu.com
-#DOMAIN,api.zhihu.com
-DOMAIN-SUFFIX,zhihu.com
-IP-CIDR,103.41.167.0/24
+#DOMAIN,zhihu-web-analytics.zhihu.com,Direct
+#DOMAIN,www.zhihu.com,Direct
+#DOMAIN,api.zhihu.com,Direct
+DOMAIN-SUFFIX,zhihu.com,Direct
+IP-CIDR,103.41.167.0/24,Direct
 # > Weibo
 DOMAIN-SUFFIX,weibo.com,Direct
 DOMAIN-SUFFIX,sinajs.cn,Direct
