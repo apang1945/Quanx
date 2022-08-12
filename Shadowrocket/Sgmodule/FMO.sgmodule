@@ -43,6 +43,8 @@ DOMAIN-SUFFIX,nflxvideo.net,Netflix
 DOMAIN-KEYWORD,netflixdnstest,Netflix
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
+# ======= Plane ======= #
+DOMAIN-SUFFIX,nanoport.xyz,Direct
 # ======= 哔哩哔哩 ======= #
 DOMAIN-SUFFIX,biliapi.net,Direct
 DOMAIN,api.bilibili.com,Direct
@@ -87,7 +89,6 @@ DOMAIN-KEYWORD,douyin,Direct
 DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
 DOMAIN-KEYWORD,zjcdn,Direct
-
 
 
 
