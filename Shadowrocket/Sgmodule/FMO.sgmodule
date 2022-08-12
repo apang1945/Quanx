@@ -92,8 +92,10 @@ DOMAIN-KEYWORD,douyin,Direct
 DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
 DOMAIN-KEYWORD,zjcdn,Direct
-
-
+# =======  YouTube ======= #
+DOMAIN-SUFFIX,youtubei.googleapis.com,Telegram
+DOMAIN-SUFFIX,ytimg.com,Telegram
+DOMAIN-SUFFIX,ggpht.com,Telegram
 
 
 
