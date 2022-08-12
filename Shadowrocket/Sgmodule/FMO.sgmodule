@@ -31,7 +31,10 @@ IP-CIDR,91.108.16.0/22,Telegram,no-resolve
 IP-CIDR,91.108.56.0/22,Telegram,no-resolve
 IP-CIDR,149.154.160.0/20,Telegram,no-resolve
 IP-CIDR,2001:B28:F23F::/48,Telegram,no-resolve
-# > Netflix
+# ======= Instagram ======= #
+DOMAIN-SUFFIX,cdninstagram.com,Telegram
+DOMAIN-SUFFIX,instagram.com,Telegram
+# ======= Netflix ======= #
 USER-AGENT,Argo*,Netflix
 DOMAIN-SUFFIX,netflix.com,Netflix
 DOMAIN-SUFFIX,netflix.net,Netflix
@@ -76,7 +79,7 @@ DOMAIN,mp.weixin.qq.com,Direct
 #DOMAIN,api.zhihu.com,Direct
 DOMAIN-SUFFIX,zhihu.com,Direct
 IP-CIDR,103.41.167.0/24,Direct
-# > Weibo
+# ======= Weibo ======= #
 DOMAIN-SUFFIX,weibo.com,Direct
 DOMAIN-SUFFIX,sinajs.cn,Direct
 DOMAIN-SUFFIX,sina.com.cn,Direct
@@ -84,7 +87,7 @@ DOMAIN-SUFFIX,sinaimg.cn,Direct
 DOMAIN-SUFFIX,weibocdn.com,Direct
 DOMAIN-SUFFIX,weibo.cn,Direct
 DOMAIN-KEYWORD,weibo,Direct
-# > Douyin
+# ======= Douyin ======= #
 DOMAIN-KEYWORD,douyin,Direct
 DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
