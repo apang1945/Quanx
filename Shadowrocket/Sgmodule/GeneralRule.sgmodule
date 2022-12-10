@@ -20,7 +20,6 @@ DOMAIN,optimus-ads.amap.com,REJECT
 DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
 URL-REGEX,^https?+:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/,REJECT
 
-
 # > 淘宝
 URL-REGEX,^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$,REJECT
 URL-REGEX,^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$,REJECT
@@ -57,4 +56,4 @@ URL-REGEX,^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless,REJE
 WeChat = script-path=https://hub.nange.cn/Script/WeChat/WeChat.js,type=http-request,pattern=^https?://mp\.weixin\.qq\.com/mp/getappmsgad
 
 [MITM]
-hostname = mp.weixin.qq.com
+hostname = mp.weixin.qq.com,ma-adx.ctrip.com,m.ctrip.com,gw.alicdn.com,heic.alicdn.com
