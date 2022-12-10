@@ -56,21 +56,6 @@ URL-REGEX,^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless,REJE
 ^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$,REJECT
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 
-[Map Local]
-# > 哔哩哔哩
-^https?:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/ip\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https?:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/top\/activity data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/pop\/up\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/show\/tab\/bubble data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/v2\/feed\/index\/story\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.live\.(bilibili|biliapi)\.(com|net)\/xlive\/app-ucenter\/v1\/user_title\/GetTitles\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/pgc\/app\/preload data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/mall\/ashbringer\/app\/abtest data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/api\/ticket\/district\/dl data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/bilibili\.app\.listener\.v1\.Listener\/RcmdPlaylist$ data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/v2\/channel\/red data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/bilibili\.app\.wall\.v1\.Wall\/RuleInfo$ data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
-
 [Script]
 # > 微信公众号
 WeChat = script-path=https://hub.nange.cn/Script/WeChat/WeChat.js,type=http-request,pattern=^https?://mp\.weixin\.qq\.com/mp/getappmsgad
