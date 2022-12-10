@@ -1,0 +1,79 @@
+#!name=常用规则
+#!desc=功能解锁+去广告
+
+[Rule]
+# > 京东，去启动广告
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+
+# > 腾讯QQ
+URL-REGEX,^http:\/\/.+\/analytics\/upload,REJECT
+DOMAIN,sq.bls.mdt.qq.com,REJECT
+
+# > 微信
+URL-REGEX,^https?:\/\/resstatic\.servicewechat\.com\/weapp\/release_,REJECT
+URL-REGEX,^https?:\/\/wxsnsdythumb\.wxs\.qq\.com\/.+\/snscosdownload\/SZ\/reserved,REJECT
+URL-REGEX,^https?:\/\/dlied(.*).cdntips.net,REJECT
+URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad),REJECT
+
+# > 高德地图
+DOMAIN,optimus-ads.amap.com,REJECT
+DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
+URL-REGEX,^https?+:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/,REJECT
+
+
+# > 淘宝
+URL-REGEX,^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$,REJECT
+URL-REGEX,^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$,REJECT
+URL-REGEX,^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$,REJECT
+URL-REGEX,^https?+:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless,REJECT
+
+[URL Rewrite]
+# > Bilibili
+(^https?:\/\/app\.biliintl\.com\/(x\/)?(intl|dm|reply|history|v\d/msgfeed).+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$5&sim_code=51503$7 header
+(^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 header
+
+# > QQ音乐
+^https?:\/\/.+?\/music\/common\/upload\/t_splash_info\/ - reject
+
+# > 美团
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture - reject
+^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) - reject
+
+# > 爱思
+^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml - reject
+
+# > 高德地图广告
+^http:\/\/ems\.youku\.com\/imp\? - reject
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+ - reject
+
+# > 搬运淘宝(by gitee-木剑)->gw.alicdn.com,heic.alicdn.com
+^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
+
+# > 携程广告->ma-adx.ctrip.com,m.ctrip.com
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
+^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds - reject
+^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$,REJECT
+^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
+
+[Map Local]
+# > 哔哩哔哩
+^https?:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/ip\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https?:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/top\/activity data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/pop\/up\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/resource\/show\/tab\/bubble data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/v2\/feed\/index\/story\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.live\.(bilibili|biliapi)\.(com|net)\/xlive\/app-ucenter\/v1\/user_title\/GetTitles\? data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/pgc\/app\/preload data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/mall\/ashbringer\/app\/abtest data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/api\/ticket\/district\/dl data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/bilibili\.app\.listener\.v1\.Listener\/RcmdPlaylist$ data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/x\/v2\/channel\/red data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+^https:\/\/.+\.(bilibili|biliapi)\.(com|net)\/bilibili\.app\.wall\.v1\.Wall\/RuleInfo$ data="https://hub.nange.cn/Mock/Blank/Blank_Dict.json"
+
+[Script]
+# > 微信公众号
+WeChat = script-path=https://hub.nange.cn/Script/WeChat/WeChat.js,type=http-request,pattern=^https?://mp\.weixin\.qq\.com/mp/getappmsgad
+
+[MITM]
+hostname = mp.weixin.qq.com
