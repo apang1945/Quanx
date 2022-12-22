@@ -36,11 +36,12 @@ IP-CIDR,91.108.56.0/22,Telegram,no-resolve
 IP-CIDR,149.154.160.0/20,Telegram,no-resolve
 IP-CIDR,2001:B28:F23F::/48,Telegram,no-resolve
 # > Twitter
+DOMAIN-SUFFIX,twitter.com,Twitter
+DOMAIN-SUFFIX,t.co,Twitter
 DOMAIN-SUFFIX,ads-twitter.com,Twitter
 DOMAIN-SUFFIX,cms-twdigitalassets.com,Twitter
 DOMAIN-SUFFIX,periscope.tv,Twitter
 DOMAIN-SUFFIX,pscp.tv,Twitter
-DOMAIN-SUFFIX,t.co,Twitter
 DOMAIN-SUFFIX,tellapart.com,Twitter
 DOMAIN-SUFFIX,tweetdeck.com,Twitter
 DOMAIN-SUFFIX,twimg.co,Twitter
@@ -48,7 +49,6 @@ DOMAIN-SUFFIX,twimg.com,Twitter
 DOMAIN-SUFFIX,twimg.org,Twitter
 DOMAIN-SUFFIX,twitpic.com,Twitter
 DOMAIN-SUFFIX,twitter.biz,Twitter
-DOMAIN-SUFFIX,twitter.com,Twitter
 DOMAIN-SUFFIX,twitter.jp,Twitter
 DOMAIN-SUFFIX,twittercommunity.com,Twitter
 DOMAIN-SUFFIX,twitterflightschool.com,Twitter
@@ -61,13 +61,22 @@ DOMAIN-SUFFIX,twttr.net,Twitter
 DOMAIN-SUFFIX,twvid.com,Twitter
 DOMAIN-SUFFIX,vine.co,Twitter
 DOMAIN-KEYWORD,twitter,Twitter
-IP-CIDR,192.133.76.0/22,no-resolve,Twitter
-IP-CIDR,199.16.156.0/22,no-resolve,Twitter
-IP-CIDR,199.59.148.0/22,no-resolve,Twitter
-IP-CIDR,199.96.56.0/21,no-resolve,Twitter
-IP-CIDR,202.160.128.0/22,no-resolve,Twitter
-IP-CIDR,209.237.192.0/19,no-resolve,Twitter
-IP-CIDR,69.195.160.0/19,no-resolve,Twitter
+#IP-CIDR,192.133.76.0/22,no-resolve,Twitter
+#IP-CIDR,199.16.156.0/22,no-resolve,Twitter
+#IP-CIDR,199.59.148.0/22,no-resolve,Twitter
+#IP-CIDR,199.96.56.0/21,no-resolve,Twitter
+#IP-CIDR,202.160.128.0/22,no-resolve,Twitter
+#IP-CIDR,209.237.192.0/19,no-resolve,Twitter
+#IP-CIDR,69.195.160.0/19,no-resolve,Twitter
+# > Pixiv
+DOMAIN-SUFFIX,booth.pm,Pixiv
+DOMAIN-SUFFIX,fanbox.cc,Pixiv
+DOMAIN-SUFFIX,pixiv.cat,Pixiv
+DOMAIN-SUFFIX,pixiv.co.jp,Pixiv
+DOMAIN-SUFFIX,pixiv.me,Pixiv
+DOMAIN-SUFFIX,pixiv.net,Pixiv
+DOMAIN-SUFFIX,pixiv.org,Pixiv,Pixiv
+DOMAIN-SUFFIX,pximg.net,Pixiv
 # ======= Instagram ======= #
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
 DOMAIN-SUFFIX,instagram.com,Telegram
