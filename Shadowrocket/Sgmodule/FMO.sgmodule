@@ -75,7 +75,7 @@ DOMAIN-SUFFIX,pixiv.cat,Pixiv
 DOMAIN-SUFFIX,pixiv.co.jp,Pixiv
 DOMAIN-SUFFIX,pixiv.me,Pixiv
 DOMAIN-SUFFIX,pixiv.net,Pixiv
-DOMAIN-SUFFIX,pixiv.org,Pixiv,Pixiv
+DOMAIN-SUFFIX,pixiv.org,Pixiv
 DOMAIN-SUFFIX,pximg.net,Pixiv
 # ======= Instagram ======= #
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
