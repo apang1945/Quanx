@@ -92,6 +92,36 @@ DOMAIN-SUFFIX,nflxvideo.net,Netflix
 DOMAIN-KEYWORD,netflixdnstest,Netflix
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
+# ======= Github ======= #
+DOMAIN-SUFFIX,atom.io,Telegram
+DOMAIN-SUFFIX,dependabot.com,Telegram
+DOMAIN-SUFFIX,ghcr.io,Telegram
+DOMAIN-SUFFIX,git.io,Telegram
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,Telegram
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,Telegram
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com,Telegram
+DOMAIN-SUFFIX,github.blog,Telegram
+DOMAIN-SUFFIX,github.com,Telegram
+DOMAIN-SUFFIX,github.community,Telegram
+DOMAIN-SUFFIX,github.dev,Telegram
+DOMAIN-SUFFIX,github.io,Telegram
+DOMAIN-SUFFIX,githubapp.com,Telegram
+DOMAIN-SUFFIX,githubassets.com,Telegram
+DOMAIN-SUFFIX,githubhackathon.com,Telegram
+DOMAIN-SUFFIX,githubpreview.dev,Telegram
+DOMAIN-SUFFIX,githubstatus.com,Telegram
+DOMAIN-SUFFIX,githubuniverse.com,Telegram
+DOMAIN-SUFFIX,githubusercontent.com,Telegram
+DOMAIN-SUFFIX,myoctocat.com,Telegram
+DOMAIN-SUFFIX,npm.community,Telegram
+DOMAIN-SUFFIX,npmjs.com,Telegram
+DOMAIN-SUFFIX,npmjs.org,Telegram
+DOMAIN-SUFFIX,opensource.guide,Telegram
+DOMAIN-SUFFIX,rawgit.com,Telegram
+DOMAIN-SUFFIX,rawgithub.com,Telegram
+DOMAIN-SUFFIX,repo.new,Telegram
+DOMAIN-SUFFIX,thegithubshop.com,Telegram
+DOMAIN-KEYWORD,github,Telegram
 # ======= Plane ======= #
 DOMAIN-SUFFIX,nanoport.xyz,Direct
 # ======= 哔哩哔哩 ======= #
