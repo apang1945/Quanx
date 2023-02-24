@@ -30,6 +30,12 @@ DOMAIN-SUFFIX,tiktok.com,TikTok
 DOMAIN-SUFFIX,tiktokcdn.com,TikTok
 DOMAIN-SUFFIX,tiktokv.com,TikTok
 DOMAIN-KEYWORD,-tiktokcdn-com,TikTok
+# > Spotify
+DOMAIN-SUFFIX,scdn.co,香港
+DOMAIN,audio4-ak-spotify-com.akamaized.net,香港
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,香港
+DOMAIN-SUFFIX,spotify.com,香港
+DOMAIN-KEYWORD,spotify.com,香港
 # > Telegram
 DOMAIN-SUFFIX,t.me,Telegram
 IP-CIDR,91.108.16.0/22,Telegram,no-resolve
