@@ -84,6 +84,11 @@ DOMAIN-SUFFIX,pixiv.me,Pixiv
 DOMAIN-SUFFIX,pixiv.net,Pixiv
 DOMAIN-SUFFIX,pixiv.org,Pixiv
 DOMAIN-SUFFIX,pximg.net,Pixiv
+# > Chatgpt
+DOMAIN-SUFFIX,openai.com,Telegram
+DOMAIN-SUFFIX,ai.com,Telegram
+DOMAIN,cdn.auth0.com,Telegram
+DOMAIN,openaiapi-site.azureedge.net,Telegram
 # ======= Instagram ======= #
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
 DOMAIN-SUFFIX,instagram.com,Telegram
