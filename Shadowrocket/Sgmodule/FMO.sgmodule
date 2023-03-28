@@ -200,3 +200,7 @@ https://creative.live.missav.com/widgets/Spot/lib.js - reject
 
 # missav 播放页弹窗
 https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8} - reject
+
+[Script]
+
+anime1 = type=http-response,pattern="^https?:\/\/(anime1.me)(?!.*?(/(cdn-cgi)))(?!.*?(\.(css|js|jpeg|jpg|png|gif|ico|mp3|mp4|svg|tff|PNG|woff|woff2|m3u8))).*",requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js,script-update-interval=0
