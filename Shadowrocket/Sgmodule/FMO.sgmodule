@@ -198,5 +198,5 @@ DOMAIN-KEYWORD,zjcdn,Direct
 # missav 直播跳出广告
 https://creative.live.missav.com/widgets/Spot/lib.js - reject
 
-[MITM]
-hostname = %APPEND% m.yhpdm.com, m.yhdmp.cc, m.yhdmp.com, anime1.me, www.tz659.com, www.ttsp.tv, *.cloudfront.net, www.o8tv.com, www.555dd*.com, www.5dy*, *.tvn.cc, www.wnacg.com, www.wnacg.org, suzihaza.com, 91porn.com, netflav.com, www.javmost.xyz, javmost.xyz, www5.javmost.xyz, www5.javmost.com, www.bing.com, zhuanlan.zhihu.com, www.zhihu.com, jable.tv, *.tvn.cc, ddrk.me, ddys.tv, ddys.art, ddys2.me, 18comic.org, 18comic.vip, www.google.com, www.google.com.hk, www.pornhub.com, cn.pornhub.com, missav.com, www.libvio.com, 4hu.*, *.gimy.*, *.duboku.*, assert.avple.tv, avple.tv, *.btbdys.*, www.bdys01.com, *.javbus.*, www.baidu.com, m.baidu.com, zhidao.baidu.com
+# missav 播放页弹窗
+https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8} - reject
