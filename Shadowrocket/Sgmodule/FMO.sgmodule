@@ -187,6 +187,14 @@ DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
 DOMAIN-KEYWORD,zjcdn,Direct
 
+[URL Rewrite]
 
+# Pornhub 视频广告
+^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads.* - reject
 
+# javmost 播放页弹窗广告
+^https:\/\/suzihaza\.com\/asset\/jquery\/slim-3\.2\.min\.js.* - reject
+
+# missav 直播跳出广告
+https://creative.live.missav.com/widgets/Spot/lib.js - reject
 
