@@ -14,22 +14,6 @@ DOMAIN-SUFFIX,disney-plus.net,Disney+
 DOMAIN-SUFFIX,disneystreaming.com,Disney+
 DOMAIN-SUFFIX,dssott.com,Disney+
 DOMAIN,cdn.registerdisney.go.com,Disney+
-# > TikTok
-USER-AGENT,TikTok*,TikTok
-DOMAIN,p16-tiktokcdn-com.akamaized.net,TikTok
-DOMAIN-SUFFIX,byteoversea.com,TikTok
-DOMAIN-SUFFIX,ibytedtos.com,TikTok
-DOMAIN-SUFFIX,ibyteimg.com,TikTok
-DOMAIN-SUFFIX,ipstatp.com,TikTok
-DOMAIN-SUFFIX,muscdn.com,TikTok
-DOMAIN-SUFFIX,musical.ly,TikTok
-DOMAIN-SUFFIX,sgpstatp.com,TikTok
-DOMAIN-SUFFIX,snssdk.com,TikTok
-DOMAIN-SUFFIX,tik-tokapi.com,TikTok
-DOMAIN-SUFFIX,tiktok.com,TikTok
-DOMAIN-SUFFIX,tiktokcdn.com,TikTok
-DOMAIN-SUFFIX,tiktokv.com,TikTok
-DOMAIN-KEYWORD,-tiktokcdn-com,TikTok
 # > Spotify
 DOMAIN-SUFFIX,scdn.co,香港
 DOMAIN,audio4-ak-spotify-com.akamaized.net,香港
