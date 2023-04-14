@@ -1,0 +1,123 @@
+#!name=Taozi
+#!desc=自用规则整理
+
+[Rule]
+# > Spotify
+DOMAIN-SUFFIX,scdn.co,HK
+DOMAIN,audio4-ak-spotify-com.akamaized.net,HK
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,HK
+DOMAIN-SUFFIX,spotify.com,HK
+DOMAIN-KEYWORD,spotify.com,HK
+# > Telegram
+DOMAIN-SUFFIX,t.me,Telegram
+IP-CIDR,91.108.16.0/22,Telegram,no-resolve
+IP-CIDR,91.108.56.0/22,Telegram,no-resolve
+IP-CIDR,149.154.160.0/20,Telegram,no-resolve
+IP-CIDR,2001:B28:F23F::/48,Telegram,no-resolve
+# > Twitter
+DOMAIN-SUFFIX,twitter.com,Twitter
+DOMAIN-SUFFIX,t.co,Twitter
+DOMAIN-SUFFIX,ads-twitter.com,Twitter
+DOMAIN-SUFFIX,cms-twdigitalassets.com,Twitter
+DOMAIN-SUFFIX,periscope.tv,Twitter
+DOMAIN-SUFFIX,pscp.tv,Twitter
+DOMAIN-SUFFIX,tellapart.com,Twitter
+DOMAIN-SUFFIX,tweetdeck.com,Twitter
+DOMAIN-SUFFIX,twimg.co,Twitter
+DOMAIN-SUFFIX,twimg.com,Twitter
+DOMAIN-SUFFIX,twimg.org,Twitter
+DOMAIN-SUFFIX,twitpic.com,Twitter
+DOMAIN-SUFFIX,twitter.biz,Twitter
+DOMAIN-SUFFIX,twitter.jp,Twitter
+DOMAIN-SUFFIX,twittercommunity.com,Twitter
+DOMAIN-SUFFIX,twitterflightschool.com,Twitter
+DOMAIN-SUFFIX,twitterinc.com,Twitter
+DOMAIN-SUFFIX,twitteroauth.com,Twitter
+DOMAIN-SUFFIX,twitterstat.us,Twitter
+DOMAIN-SUFFIX,twtrdns.net,Twitter
+DOMAIN-SUFFIX,twttr.com,Twitter
+DOMAIN-SUFFIX,twttr.net,Twitter
+DOMAIN-SUFFIX,twvid.com,Twitter
+DOMAIN-SUFFIX,vine.co,Twitter
+DOMAIN-KEYWORD,twitter,Twitter
+#IP-CIDR,192.133.76.0/22,no-resolve,Twitter
+#IP-CIDR,199.16.156.0/22,no-resolve,Twitter
+#IP-CIDR,199.59.148.0/22,no-resolve,Twitter
+#IP-CIDR,199.96.56.0/21,no-resolve,Twitter
+#IP-CIDR,202.160.128.0/22,no-resolve,Twitter
+#IP-CIDR,209.237.192.0/19,no-resolve,Twitter
+#IP-CIDR,69.195.160.0/19,no-resolve,Twitter
+# > Pixiv
+DOMAIN-SUFFIX,booth.pm,Pixiv
+DOMAIN-SUFFIX,fanbox.cc,Pixiv
+DOMAIN-SUFFIX,pixiv.cat,Pixiv
+DOMAIN-SUFFIX,pixiv.co.jp,Pixiv
+DOMAIN-SUFFIX,pixiv.me,Pixiv
+DOMAIN-SUFFIX,pixiv.net,Pixiv
+DOMAIN-SUFFIX,pixiv.org,Pixiv
+DOMAIN-SUFFIX,pximg.net,Pixiv
+# > Bahamut
+DOMAIN-SUFFIX,bahamut.akamaized.net，TW
+DOMAIN-SUFFIX,bahamut.com.tw，TW
+DOMAIN-SUFFIX,digicert.com，TW
+DOMAIN-SUFFIX,fbcdn.net，TW
+DOMAIN-SUFFIX,gamer.com.tw，TW
+DOMAIN-SUFFIX,gvt1.com，TW
+DOMAIN-SUFFIX,hinet.net，TW
+DOMAIN-SUFFIX,viblast.com，TW
+USER-AGENT,Anime*，TW
+# > Instagram
+DOMAIN-SUFFIX,cdninstagram.com,Telegram
+DOMAIN-SUFFIX,instagram.com,Telegram
+# > Github
+DOMAIN-SUFFIX,atom.io,Telegram
+DOMAIN-SUFFIX,dependabot.com,Telegram
+DOMAIN-SUFFIX,ghcr.io,Telegram
+DOMAIN-SUFFIX,git.io,Telegram
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,Telegram
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,Telegram
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com,Telegram
+DOMAIN-SUFFIX,github.blog,Telegram
+DOMAIN-SUFFIX,github.com,Telegram
+DOMAIN-SUFFIX,github.community,Telegram
+DOMAIN-SUFFIX,github.dev,Telegram
+DOMAIN-SUFFIX,github.io,Telegram
+DOMAIN-SUFFIX,githubapp.com,Telegram
+DOMAIN-SUFFIX,githubassets.com,Telegram
+DOMAIN-SUFFIX,githubhackathon.com,Telegram
+DOMAIN-SUFFIX,githubpreview.dev,Telegram
+DOMAIN-SUFFIX,githubstatus.com,Telegram
+DOMAIN-SUFFIX,githubuniverse.com,Telegram
+DOMAIN-SUFFIX,githubusercontent.com,Telegram
+DOMAIN-SUFFIX,myoctocat.com,Telegram
+DOMAIN-SUFFIX,npm.community,Telegram
+DOMAIN-SUFFIX,npmjs.com,Telegram
+DOMAIN-SUFFIX,npmjs.org,Telegram
+DOMAIN-SUFFIX,opensource.guide,Telegram
+DOMAIN-SUFFIX,rawgit.com,Telegram
+DOMAIN-SUFFIX,rawgithub.com,Telegram
+DOMAIN-SUFFIX,repo.new,Telegram
+DOMAIN-SUFFIX,thegithubshop.com,Telegram
+DOMAIN-KEYWORD,github,Telegram
+# > Facebook
+DOMAIN-SUFFIX,fbcdn.net,Telegram
+DOMAIN-SUFFIX,facebook.com,Telegram
+DOMAIN-SUFFIX,fb.com,Telegram
+DOMAIN-SUFFIX,fb.me,Telegram
+DOMAIN-KEYWORD,facebook,Telegram
+# > Bypass
+DOMAIN-SUFFIX, anime1.me,US
+
+[URL Rewrite]
+
+# Pornhub 视频广告
+^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads.* - reject
+
+# javmost 播放页弹窗广告
+^https:\/\/suzihaza\.com\/asset\/jquery\/slim-3\.2\.min\.js.* - reject
+
+# missav 直播跳出广告
+https://creative.live.missav.com/widgets/Spot/lib.js - reject
+
+# missav 播放页弹窗
+https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8} - reject
