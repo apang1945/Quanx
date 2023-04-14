@@ -107,6 +107,7 @@ DOMAIN-SUFFIX,fb.me,Telegram
 DOMAIN-KEYWORD,facebook,Telegram
 # > Bypass
 DOMAIN-SUFFIX, anime1.me,US
+DOMAIN,excess.duolingo.com,DIRECT // Added for: excess.duolingo.com:443
 
 [URL Rewrite]
 
