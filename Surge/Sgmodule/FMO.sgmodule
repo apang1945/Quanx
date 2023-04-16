@@ -57,15 +57,15 @@ DOMAIN-SUFFIX,pixiv.net,Pixiv
 DOMAIN-SUFFIX,pixiv.org,Pixiv
 DOMAIN-SUFFIX,pximg.net,Pixiv
 # > Bahamut
-DOMAIN-SUFFIX,bahamut.akamaized.net,TW
-DOMAIN-SUFFIX,bahamut.com.tw,TW
-DOMAIN-SUFFIX,digicert.com,TW
-DOMAIN-SUFFIX,fbcdn.net,TW
-DOMAIN-SUFFIX,gamer.com.tw,TW
-DOMAIN-SUFFIX,gvt1.com,TW
-DOMAIN-SUFFIX,hinet.net,TW
-DOMAIN-SUFFIX,viblast.com,TW
-USER-AGENT,Anime*,TW
+DOMAIN-SUFFIX,bahamut.akamaized.net,Bahamut
+DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
+DOMAIN-SUFFIX,digicert.com,Bahamut
+DOMAIN-SUFFIX,fbcdn.net,Bahamut
+DOMAIN-SUFFIX,gamer.com.tw,Bahamut
+DOMAIN-SUFFIX,gvt1.com,Bahamut
+DOMAIN-SUFFIX,hinet.net,Bahamut
+DOMAIN-SUFFIX,viblast.com,Bahamut
+USER-AGENT,Anime*,Bahamut
 # > Instagram
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
 DOMAIN-SUFFIX,instagram.com,Telegram
