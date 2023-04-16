@@ -122,3 +122,11 @@ https://creative.live.missav.com/widgets/Spot/lib.js - reject
 
 # missav 播放页弹窗
 https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8} - reject
+
+# Safari 谷歌搜索重定向（Surge）
+
+^https?://(www.)?g.cn https://www.google.com 302
+^https?://(www.)?google.cn https://www.google.com 302
+
+[MITM]
+hostname = %APPEND% www.google.cn, www.g.cn
