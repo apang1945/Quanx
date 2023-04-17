@@ -129,4 +129,4 @@ https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8} - reject
 ^https?://(www.)?google.cn https://www.google.com 302
 
 [MITM]
-hostname = %APPEND% www.google.cn, www.g.cn, www.pornhub.com,cn.pornhub.com,missav.com,netflav.com
+hostname = %APPEND% www.google.cn, www.g.cn,www.pornhub.com,cn.pornhub.com,missav.com,netflav.com
