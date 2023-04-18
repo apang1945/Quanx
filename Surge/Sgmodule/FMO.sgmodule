@@ -15,17 +15,17 @@ IP-CIDR,91.108.56.0/22,Telegram,no-resolve
 IP-CIDR,149.154.160.0/20,Telegram,no-resolve
 IP-CIDR6,2001:B28:F23F::/48,Telegram,no-resolve
 # > Netflix
-USER-AGENT,Argo*,Netflix
-DOMAIN-SUFFIX,netflix.com,Netflix
-DOMAIN-SUFFIX,netflix.net,Netflix
-DOMAIN-SUFFIX,nflxext.com,Netflix
-DOMAIN-SUFFIX,nflximg.com,Netflix
-DOMAIN-SUFFIX,nflximg.net,Netflix
-DOMAIN-SUFFIX,nflxso.net,Netflix
-DOMAIN-SUFFIX,nflxvideo.net,Netflix
-DOMAIN-KEYWORD,netflixdnstest,Netflix
-DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
-DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
+USER-AGENT,Argo*,SG
+DOMAIN-SUFFIX,netflix.com,SG
+DOMAIN-SUFFIX,netflix.net,SG
+DOMAIN-SUFFIX,nflxext.com,SG
+DOMAIN-SUFFIX,nflximg.com,SG
+DOMAIN-SUFFIX,nflximg.net,SG
+DOMAIN-SUFFIX,nflxso.net,SG
+DOMAIN-SUFFIX,nflxvideo.net,SG
+DOMAIN-KEYWORD,netflixdnstest,SG
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,SG
+DOMAIN-KEYWORD,dualstack.apiproxy-,SG
 # > Twitter
 DOMAIN-SUFFIX,twitter.com,Twitter
 DOMAIN-SUFFIX,t.co,Twitter
