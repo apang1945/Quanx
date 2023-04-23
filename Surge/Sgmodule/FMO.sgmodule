@@ -48,14 +48,14 @@ DOMAIN-KEYWORD,twitter,Twitter
 #IP-CIDR,209.237.192.0/19,no-resolve,Twitter
 #IP-CIDR,69.195.160.0/19,no-resolve,Twitter
 # > Pixiv
-DOMAIN-SUFFIX,booth.pm,Pixiv
-DOMAIN-SUFFIX,fanbox.cc,Pixiv
-DOMAIN-SUFFIX,pixiv.cat,Pixiv
-DOMAIN-SUFFIX,pixiv.co.jp,Pixiv
-DOMAIN-SUFFIX,pixiv.me,Pixiv
-DOMAIN-SUFFIX,pixiv.net,Pixiv
-DOMAIN-SUFFIX,pixiv.org,Pixiv
-DOMAIN-SUFFIX,pximg.net,Pixiv
+DOMAIN-SUFFIX,booth.pm,JP
+DOMAIN-SUFFIX,fanbox.cc,JP
+DOMAIN-SUFFIX,pixiv.cat,JP
+DOMAIN-SUFFIX,pixiv.co.jp,JP
+DOMAIN-SUFFIX,pixiv.me,JP
+DOMAIN-SUFFIX,pixiv.net,JP
+DOMAIN-SUFFIX,pixiv.org,JP
+DOMAIN-SUFFIX,pximg.net,JP
 # > Bahamut
 DOMAIN-SUFFIX,bahamut.akamaized.net,Bahamut
 DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
