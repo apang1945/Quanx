@@ -108,6 +108,7 @@ DOMAIN-KEYWORD,facebook,Telegram
 # > Bypass
 DOMAIN-SUFFIX, anime1.me,US
 DOMAIN,excess.duolingo.com,DIRECT // Added for: excess.duolingo.com:443
+DOMAIN-KEYWORD,bing.com,PROXY
 # > Apple
 DOMAIN-SUFFIX,testflight.apple.com,PROXY
 
