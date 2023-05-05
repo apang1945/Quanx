@@ -106,6 +106,35 @@ DOMAIN-SUFFIX,rawgithub.com,Telegram
 DOMAIN-SUFFIX,repo.new,Telegram
 DOMAIN-SUFFIX,thegithubshop.com,Telegram
 DOMAIN-KEYWORD,github,Telegram
+# ======= Discord ======= #
+DOMAIN-SUFFIX,airhorn.solutions,Telegram
+DOMAIN-SUFFIX,airhornbot.com,Telegram
+DOMAIN-SUFFIX,bigbeans.solutions,Telegram
+DOMAIN-SUFFIX,dis.gd,Telegram
+DOMAIN-SUFFIX,discord-activities.com,Telegram
+DOMAIN-SUFFIX,discord.co,Telegram
+DOMAIN-SUFFIX,discord.com,Telegram
+DOMAIN-SUFFIX,discord.design,Telegram
+DOMAIN-SUFFIX,discord.dev,Telegram
+DOMAIN-SUFFIX,discord.gg,Telegram
+DOMAIN-SUFFIX,discord.gift,Telegram
+DOMAIN-SUFFIX,discord.gifts,Telegram
+DOMAIN-SUFFIX,discord.media,Telegram
+DOMAIN-SUFFIX,discord.new,Telegram
+DOMAIN-SUFFIX,discord.store,Telegram
+DOMAIN-SUFFIX,discord.tools,Telegram
+DOMAIN-SUFFIX,discordactivities.com,Telegram
+DOMAIN-SUFFIX,discordapp.com,Telegram
+DOMAIN-SUFFIX,discordapp.io,Telegram
+DOMAIN-SUFFIX,discordapp.net,Telegram
+DOMAIN-SUFFIX,discordapp.page.link,Telegram
+DOMAIN-SUFFIX,discordcdn.com,Telegram
+DOMAIN-SUFFIX,discordmerch.com,Telegram
+DOMAIN-SUFFIX,discordpartygames.com,Telegram
+DOMAIN-SUFFIX,discordsays.com,Telegram
+DOMAIN-SUFFIX,discordstatus.com,Telegram
+DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com,Telegram
+DOMAIN-SUFFIX,watchanimeattheoffice.com,Telegram
 # ======= Facebook ======= #
 DOMAIN-SUFFIX,fbcdn.net,Telegram
 DOMAIN-SUFFIX,facebook.com,Telegram
