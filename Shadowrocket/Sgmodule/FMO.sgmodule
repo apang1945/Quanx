@@ -73,6 +73,8 @@ DOMAIN-SUFFIX,openai.com,原生
 DOMAIN-SUFFIX,ai.com,原生
 DOMAIN,cdn.auth0.com,原生
 DOMAIN,openaiapi-site.azureedge.net,原生
+# > Tidal
+DOMAIN-KEYWORD,tidal,新加坡
 # ======= Instagram ======= #
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
 DOMAIN-SUFFIX,instagram.com,Telegram
