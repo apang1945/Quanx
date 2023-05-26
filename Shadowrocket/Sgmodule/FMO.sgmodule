@@ -75,10 +75,37 @@ DOMAIN,cdn.auth0.com,原生
 DOMAIN,openaiapi-site.azureedge.net,原生
 # > Tidal
 DOMAIN-KEYWORD,tidal,香港
-# ======= Instagram ======= #
+# > AmazonPrimeVideo
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,新加坡
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,新加坡
+DOMAIN,d25xi40x97liuc.cloudfront.net,新加坡
+DOMAIN,d27xxe7juh1us6.cloudfront.net,新加坡
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,新加坡
+DOMAIN-SUFFIX,aiv-cdn.net,新加坡
+DOMAIN-SUFFIX,aiv-delivery.net,新加坡
+DOMAIN-SUFFIX,amazonprimevideo.cn,新加坡
+DOMAIN-SUFFIX,amazonprimevideo.com.cn,新加坡
+DOMAIN-SUFFIX,amazonprimevideos.com,新加坡
+DOMAIN-SUFFIX,amazonvideo.cc,新加坡
+DOMAIN-SUFFIX,amazonvideo.com,新加坡
+DOMAIN-SUFFIX,atv-ps.amazon.com,新加坡
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net,新加坡
+DOMAIN-SUFFIX,fls-na.amazon.com,新加坡
+DOMAIN-SUFFIX,llnwd.net,新加坡
+DOMAIN-SUFFIX,media-amazon.com,新加坡
+DOMAIN-SUFFIX,prime-video.com,新加坡
+DOMAIN-SUFFIX,primevideo.cc,新加坡
+DOMAIN-SUFFIX,primevideo.com,新加坡
+DOMAIN-SUFFIX,primevideo.info,新加坡
+DOMAIN-SUFFIX,primevideo.org,新加坡
+DOMAIN-SUFFIX,primevideo.tv,新加坡
+DOMAIN-KEYWORD,avoddashs,新加坡
+USER-AGENT,InstantVideo.US*,新加坡
+USER-AGENT,Prime%20Video*,新加坡
+# > Instagram
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
 DOMAIN-SUFFIX,instagram.com,Telegram
-# ======= Github ======= #
+# > Github
 DOMAIN-SUFFIX,atom.io,Telegram
 DOMAIN-SUFFIX,dependabot.com,Telegram
 DOMAIN-SUFFIX,ghcr.io,Telegram
@@ -108,7 +135,7 @@ DOMAIN-SUFFIX,rawgithub.com,Telegram
 DOMAIN-SUFFIX,repo.new,Telegram
 DOMAIN-SUFFIX,thegithubshop.com,Telegram
 DOMAIN-KEYWORD,github,Telegram
-# ======= Discord ======= #
+# > Discord
 DOMAIN-SUFFIX,airhorn.solutions,Telegram
 DOMAIN-SUFFIX,airhornbot.com,Telegram
 DOMAIN-SUFFIX,bigbeans.solutions,Telegram
@@ -137,15 +164,15 @@ DOMAIN-SUFFIX,discordsays.com,Telegram
 DOMAIN-SUFFIX,discordstatus.com,Telegram
 DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com,Telegram
 DOMAIN-SUFFIX,watchanimeattheoffice.com,Telegram
-# ======= Facebook ======= #
+# > Facebook
 DOMAIN-SUFFIX,fbcdn.net,Telegram
 DOMAIN-SUFFIX,facebook.com,Telegram
 DOMAIN-SUFFIX,fb.com,Telegram
 DOMAIN-SUFFIX,fb.me,Telegram
 DOMAIN-KEYWORD,facebook,Telegram
-# ======= Plane ======= #
+# > Plane
 DOMAIN-SUFFIX,nanoport.xyz,Direct
-# ======= 哔哩哔哩 ======= #
+# > 哔哩哔哩
 DOMAIN-SUFFIX,biliapi.net,Direct
 DOMAIN,api.bilibili.com,Direct
 DOMAIN,api.bilibili.tv,Direct
@@ -157,7 +184,7 @@ DOMAIN,passport.bilibili.com,Direct
 DOMAIN,live-trace.bilibili.com,Direct
 DOMAIN,message.bilibili.com,Direct
 DOMAIN,cm.bilibili.com,Direct
-# ======= 百度贴吧 ======= #
+# > 百度贴吧
 DOMAIN,tieba.baidu.com,Direct
 DOMAIN,tbmsg.baidu.com,Direct
 DOMAIN,tb5.bdstatic.com,Direct
@@ -165,18 +192,18 @@ DOMAIN,fclog.baidu.com,Direct
 DOMAIN,gsp0.baidu.com,Direct
 DOMAIN,hm.baidu.com,Direct
 DOMAIN,www.baidu.com,Direct
-# ======= 微信 ======= #
+# > 微信
 DOMAIN,szshort.weixin.qq.com,Direct
 DOMAIN,szextshort.weixin.qq.com,Direct
 DOMAIN,szminorshort.weixin.qq.com,Direct
 DOMAIN,mp.weixin.qq.com,Direct
-# ======= 知乎 ======= #
+# > 知乎
 #DOMAIN,zhihu-web-analytics.zhihu.com,Direct
 #DOMAIN,www.zhihu.com,Direct
 #DOMAIN,api.zhihu.com,Direct
 DOMAIN-SUFFIX,zhihu.com,Direct
 IP-CIDR,103.41.167.0/24,Direct
-# ======= Weibo ======= #
+# > Weibo
 DOMAIN-SUFFIX,weibo.com,Direct
 DOMAIN-SUFFIX,sinajs.cn,Direct
 DOMAIN-SUFFIX,sina.com.cn,Direct
@@ -184,12 +211,12 @@ DOMAIN-SUFFIX,sinaimg.cn,Direct
 DOMAIN-SUFFIX,weibocdn.com,Direct
 DOMAIN-SUFFIX,weibo.cn,Direct
 DOMAIN-KEYWORD,weibo,Direct
-# ======= Douyin ======= #
+# > Douyin
 DOMAIN-KEYWORD,douyin,Direct
 DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
 DOMAIN-KEYWORD,zjcdn,Direct
-# ======= Bypass ======= #
+# > Bypass
 DOMAIN-SUFFIX, anime1.me,美国
 
 [URL Rewrite]
