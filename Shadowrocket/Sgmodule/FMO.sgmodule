@@ -212,12 +212,13 @@ DOMAIN-SUFFIX,weibocdn.com,Direct
 DOMAIN-SUFFIX,weibo.cn,Direct
 DOMAIN-KEYWORD,weibo,Direct
 # > Douyin
-DOMAIN-KEYWORD,douyin,Direct
+        DOMAIN-KEYWORD,douyin,Direct
 DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
 DOMAIN-KEYWORD,zjcdn,Direct
 # > Bypass
-DOMAIN-SUFFIX, anime1.me,美国
+DOMAIN-SUFFIX,anime1.me,美国
+DOMAIN,appconfigs.disney-plus.net,REJECT
 
 [URL Rewrite]
 
