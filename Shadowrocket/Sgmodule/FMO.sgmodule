@@ -2,6 +2,9 @@
 #!desc=自用规则测试
 
 [Rule]
+# > Bypass
+DOMAIN-SUFFIX,anime1.me,美国
+DOMAIN-SUFFIX,appconfigs.disney-plus.net,REJECT
 # > HDOBOX去广告
 DOMAIN-SUFFIX,applovin.com,REJECT
 DOMAIN-SUFFIX,applvn.com,REJECT
@@ -216,9 +219,6 @@ DOMAIN-KEYWORD,douyin,Direct
 DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
 DOMAIN-KEYWORD,zjcdn,Direct
-# > Bypass
-DOMAIN-SUFFIX,anime1.me,美国
-DOMAIN-SUFFIX,appconfigs.disney-plus.net,REJECT
 
 [URL Rewrite]
 
