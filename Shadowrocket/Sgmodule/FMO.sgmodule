@@ -3,7 +3,7 @@
 
 [Rule]
 # > Bypass
-DOMAIN-SUFFIX,anime1.me,美国
+DOMAIN-SUFFIX,anime1.me,US
 DOMAIN-SUFFIX,appconfigs.disney-plus.net,REJECT
 # > HDOBOX去广告
 DOMAIN-SUFFIX,applovin.com,REJECT
@@ -18,11 +18,11 @@ DOMAIN-SUFFIX,disneystreaming.com,Disney+
 DOMAIN-SUFFIX,dssott.com,Disney+
 DOMAIN,cdn.registerdisney.go.com,Disney+
 # > Spotify
-DOMAIN-SUFFIX,scdn.co,香港
-DOMAIN,audio4-ak-spotify-com.akamaized.net,香港
-DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,香港
-DOMAIN-SUFFIX,spotify.com,香港
-DOMAIN-KEYWORD,spotify.com,香港
+DOMAIN-SUFFIX,scdn.co,HK
+DOMAIN,audio4-ak-spotify-com.akamaized.net,HK
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,HK
+DOMAIN-SUFFIX,spotify.com,HK
+DOMAIN-KEYWORD,spotify.com,HK
 # > Telegram
 DOMAIN-SUFFIX,t.me,Telegram
 IP-CIDR,91.108.16.0/22,Telegram,no-resolve
@@ -77,7 +77,7 @@ DOMAIN-SUFFIX,ai.com,原生
 DOMAIN,cdn.auth0.com,原生
 DOMAIN,openaiapi-site.azureedge.net,原生
 # > Tidal
-DOMAIN-KEYWORD,tidal,香港
+DOMAIN-KEYWORD,tidal,HK
 # > AmazonPrimeVideo
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net,PrimeVideo
 DOMAIN,d22qjgkvxw22r6.cloudfront.net,PrimeVideo
@@ -219,6 +219,13 @@ DOMAIN-KEYWORD,douyin,Direct
 DOMAIN-KEYWORD,amemv,Direct
 DOMAIN-KEYWORD,zijie,Direct
 DOMAIN-KEYWORD,zjcdn,Direct
+# > Crunchyroll
+DOMAIN-KEYWORD,crunchyroll,US
+DOMAIN-SUFFIX,app-measurement.com,US
+DOMAIN-KEYWORD,litix.io,US
+DOMAIN-KEYWORD,v.vrv.co,US
+DOMAIN-KEYWORD,crunchyrollsvc.com,US
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com,US
 
 [URL Rewrite]
 
