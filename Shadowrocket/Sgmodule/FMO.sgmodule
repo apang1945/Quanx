@@ -167,6 +167,24 @@ DOMAIN-SUFFIX,discordsays.com,Telegram
 DOMAIN-SUFFIX,discordstatus.com,Telegram
 DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com,Telegram
 DOMAIN-SUFFIX,watchanimeattheoffice.com,Telegram
+# > Dropbox
+DOMAIN-SUFFIX,db.tt,SG
+DOMAIN-SUFFIX,dropbox-dns.com,SG
+DOMAIN-SUFFIX,dropbox.com,SG
+DOMAIN-SUFFIX,dropbox.tech,SG
+DOMAIN-SUFFIX,dropbox.zendesk.com,SG
+DOMAIN-SUFFIX,dropboxapi.com,SG
+DOMAIN-SUFFIX,dropboxbusiness.com,SG
+DOMAIN-SUFFIX,dropboxcaptcha.com,SG
+DOMAIN-SUFFIX,dropboxforum.com,SG
+DOMAIN-SUFFIX,dropboxforums.com,SG
+DOMAIN-SUFFIX,dropboxinsiders.com,SG
+DOMAIN-SUFFIX,dropboxmail.com,SG
+DOMAIN-SUFFIX,dropboxpartners.com,SG
+DOMAIN-SUFFIX,dropboxstatic.com,SG
+DOMAIN-SUFFIX,dropboxusercontent.com,SG
+DOMAIN-SUFFIX,getdropbox.com,SG
+DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com,SG
 # > Facebook
 DOMAIN-SUFFIX,fbcdn.net,Telegram
 DOMAIN-SUFFIX,facebook.com,Telegram
