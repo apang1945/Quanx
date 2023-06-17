@@ -71,11 +71,6 @@ DOMAIN-SUFFIX,pixiv.me,Pixiv
 DOMAIN-SUFFIX,pixiv.net,Pixiv
 DOMAIN-SUFFIX,pixiv.org,Pixiv
 DOMAIN-SUFFIX,pximg.net,Pixiv
-# > Chatgpt
-DOMAIN-SUFFIX,openai.com,原生
-DOMAIN-SUFFIX,ai.com,原生
-DOMAIN,cdn.auth0.com,原生
-DOMAIN,openaiapi-site.azureedge.net,原生
 # > Tidal
 DOMAIN-KEYWORD,tidal,HK
 # > AmazonPrimeVideo
