@@ -188,6 +188,12 @@ DOMAIN-SUFFIX,hub5pnc.sandai.net,AWS-SG
 DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,AWS-SG
 DOMAIN-SUFFIX,hubciddata.sandai.net,AWS-SG
 DOMAIN-KEYWORD,mypikpak,AWS-SG
+# > Notion
+DOMAIN-SUFFIX,notion-static.com,SG
+DOMAIN-SUFFIX,notion.com,SG
+DOMAIN-SUFFIX,notion.new,SG
+DOMAIN-SUFFIX,notion.site,SG
+DOMAIN-SUFFIX,notion.so,SG
 # > Facebook
 DOMAIN-SUFFIX,fbcdn.net,Telegram
 DOMAIN-SUFFIX,facebook.com,Telegram
