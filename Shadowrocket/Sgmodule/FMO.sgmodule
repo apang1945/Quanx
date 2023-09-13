@@ -253,12 +253,6 @@ DOMAIN-KEYWORD,litix.io,US
 DOMAIN-KEYWORD,v.vrv.co,US
 DOMAIN-KEYWORD,crunchyrollsvc.com,US
 DOMAIN-SUFFIX,firebase-settings.crashlytics.com,US
-# > Hentai
-DOMAIN-KEYWORD,hath.network,HENTAI
-IP-CIDR,172.67.0.127/32,HENTAI
-DOMAIN-SUFFIX,ehgt.org,HENTAI
-DOMAIN-SUFFIX,e-hentai.org,HENTAI
-DOMAIN-SUFFIX,exhentai.org,HENTAI
 
 [URL Rewrite]
 
