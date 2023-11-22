@@ -1,3 +1,7 @@
+#!name=Bodian Music
+#!desc=Bodian Music no-ad
+
+[Rule]
 # > 波点音乐去广告
 #波点音乐主页排行榜
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/v2\/finds\/index\?uid= url reject-dict
@@ -10,4 +14,6 @@
 #播放器页面"邀请好友送VIP"
 ^https?:\/\/bd-api\.kuwo\.cn\/api\/play\/advert\/info\?musicId url reject-dict
 
+
+[MITM]
 hostname = bd-api.kuwo.cn
