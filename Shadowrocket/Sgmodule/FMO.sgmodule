@@ -181,13 +181,13 @@ DOMAIN-SUFFIX,dropboxusercontent.com,SG
 DOMAIN-SUFFIX,getdropbox.com,SG
 DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com,SG
 # > Pikpak
-DOMAIN-SUFFIX,dlandroid.rcv.sandai.net,SG
-DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net,SG
-DOMAIN-SUFFIX,hub5pn.wap.sandai.net,SG
-DOMAIN-SUFFIX,hub5pnc.sandai.net,SG
-DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,SG
-DOMAIN-SUFFIX,hubciddata.sandai.net,SG
-DOMAIN-KEYWORD,mypikpak,SG
+DOMAIN-SUFFIX,dlandroid.rcv.sandai.net,Pikpak
+DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net,Pikpak
+DOMAIN-SUFFIX,hub5pn.wap.sandai.net,Pikpak
+DOMAIN-SUFFIX,hub5pnc.sandai.net,Pikpak
+DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,Pikpak
+DOMAIN-SUFFIX,hubciddata.sandai.net,Pikpak
+DOMAIN-KEYWORD,mypikpak,Pikpak
 # > Notion
 DOMAIN-SUFFIX,notion-static.com,SG
 DOMAIN-SUFFIX,notion.com,SG
