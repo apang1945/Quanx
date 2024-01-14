@@ -18,11 +18,11 @@ DOMAIN-SUFFIX,disneystreaming.com,Disney+
 DOMAIN-SUFFIX,dssott.com,Disney+
 DOMAIN,cdn.registerdisney.go.com,Disney+
 # > Spotify
-DOMAIN-SUFFIX,scdn.co,HK
-DOMAIN,audio4-ak-spotify-com.akamaized.net,HK
-DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,HK
-DOMAIN-SUFFIX,spotify.com,HK
-DOMAIN-KEYWORD,spotify.com,HK
+DOMAIN-SUFFIX,scdn.co,Spotify
+DOMAIN,audio4-ak-spotify-com.akamaized.net,Spotify
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,Spotify
+DOMAIN-SUFFIX,spotify.com,Spotify
+DOMAIN-KEYWORD,spotify.com,Spotify
 # > Telegram
 DOMAIN-SUFFIX,t.me,Telegram
 IP-CIDR,91.108.16.0/22,Telegram,no-resolve
