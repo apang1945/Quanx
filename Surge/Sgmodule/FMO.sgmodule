@@ -73,33 +73,6 @@ DOMAIN-SUFFIX,gvt1.com,Bahamut
 DOMAIN-SUFFIX,hinet.net,Bahamut
 DOMAIN-SUFFIX,viblast.com,Bahamut
 USER-AGENT,Anime*,Bahamut
-# > AmazonPrimeVideo
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net,PrimeVideo
-DOMAIN,d22qjgkvxw22r6.cloudfront.net,PrimeVideo
-DOMAIN,d25xi40x97liuc.cloudfront.net,PrimeVideo
-DOMAIN,d27xxe7juh1us6.cloudfront.net,PrimeVideo
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,PrimeVideo
-DOMAIN-SUFFIX,aiv-cdn.net,PrimeVideo
-DOMAIN-SUFFIX,aiv-delivery.net,PrimeVideo
-DOMAIN-SUFFIX,amazonprimevideo.cn,PrimeVideo
-DOMAIN-SUFFIX,amazonprimevideo.com.cn,PrimeVideo
-DOMAIN-SUFFIX,amazonprimevideos.com,PrimeVideo
-DOMAIN-SUFFIX,amazonvideo.cc,PrimeVideo
-DOMAIN-SUFFIX,amazonvideo.com,PrimeVideo
-DOMAIN-SUFFIX,atv-ps.amazon.com,PrimeVideo
-DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net,PrimeVideo
-DOMAIN-SUFFIX,fls-na.amazon.com,PrimeVideo
-DOMAIN-SUFFIX,llnwd.net,PrimeVideo
-DOMAIN-SUFFIX,media-amazon.com,PrimeVideo
-DOMAIN-SUFFIX,prime-video.com,PrimeVideo
-DOMAIN-SUFFIX,primevideo.cc,PrimeVideo
-DOMAIN-SUFFIX,primevideo.com,PrimeVideo
-DOMAIN-SUFFIX,primevideo.info,PrimeVideo
-DOMAIN-SUFFIX,primevideo.org,PrimeVideo
-DOMAIN-SUFFIX,primevideo.tv,PrimeVideo
-DOMAIN-KEYWORD,avoddashs,PrimeVideo
-USER-AGENT,InstantVideo.US*,PrimeVideo
-USER-AGENT,Prime%20Video*,PrimeVideo
 # > Instagram
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
 DOMAIN-SUFFIX,instagram.com,Telegram
@@ -122,13 +95,13 @@ DOMAIN-SUFFIX,dropboxusercontent.com,SG
 DOMAIN-SUFFIX,getdropbox.com,SG
 DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com,SG
 # > Pikpak
-DOMAIN-SUFFIX,dlandroid.rcv.sandai.net,AWS-SG
-DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net,AWS-SG
-DOMAIN-SUFFIX,hub5pn.wap.sandai.net,AWS-SG
-DOMAIN-SUFFIX,hub5pnc.sandai.net,AWS-SG
-DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,AWS-SG
-DOMAIN-SUFFIX,hubciddata.sandai.net,AWS-SG
-DOMAIN-KEYWORD,mypikpak,AWS-SG
+DOMAIN-SUFFIX,dlandroid.rcv.sandai.net,SG
+DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net,SG
+DOMAIN-SUFFIX,hub5pn.wap.sandai.net,SG
+DOMAIN-SUFFIX,hub5pnc.sandai.net,SG
+DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,SG
+DOMAIN-SUFFIX,hubciddata.sandai.net,SG
+DOMAIN-KEYWORD,mypikpak,SG
 # > Notion
 DOMAIN-SUFFIX,notion-static.com,SG
 DOMAIN-SUFFIX,notion.com,SG
