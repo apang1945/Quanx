@@ -103,6 +103,8 @@ USER-AGENT,Prime%20Video*,PrimeVideo
 # > Instagram
 DOMAIN-SUFFIX,cdninstagram.com,Telegram
 DOMAIN-SUFFIX,instagram.com,Telegram
+DOMAIN-SUFFIX,instagr.am,Telegram
+DOMAIN-KEYWORD,instagram,Telegram
 # > Github
 DOMAIN-SUFFIX,atom.io,Telegram
 DOMAIN-SUFFIX,dependabot.com,Telegram
