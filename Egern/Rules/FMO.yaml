@@ -1,0 +1,8 @@
+# 规则集
+rules:
+  # nodeseek 规则
+  - name: nodeseek
+    no_resolve: true
+    domain_keyword_set:
+      - nodeseek
+    strategy: TT  # 走 TT 策略组
