@@ -1,0 +1,9 @@
+#!name=Taozi的自定义规则
+#!desc=自定义规则收集
+
+rules:
+  - domain_keyword:
+      # 匹配的域名关键词
+      match: nodeseek
+      # 使用的策略
+      policy: TT
