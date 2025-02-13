@@ -6,4 +6,4 @@ rules:
       # 匹配的域名关键词
       match: nodeseek
       # 使用的策略
-      policy: TT
+      policy: Telegram
