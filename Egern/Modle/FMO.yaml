@@ -7,6 +7,6 @@ rules:
       match: nodeseek
       # 使用的策略
       policy: Telegram
-  - domain:
+  - domain_suffix:
       match: qwq.chat
       policy: DIRECT
