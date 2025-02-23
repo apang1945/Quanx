@@ -10,3 +10,6 @@ rules:
   - domain_suffix:
       match: qwq.chat
       policy: DIRECT
+  - domain_keyword:
+      match: qishui
+      policy: Direct
