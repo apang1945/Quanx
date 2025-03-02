@@ -13,3 +13,6 @@ rules:
   - domain_keyword:
       match: qishui
       policy: Direct
+  - domain_keyword:
+      match: 952963.xyz
+      policy: Direct
