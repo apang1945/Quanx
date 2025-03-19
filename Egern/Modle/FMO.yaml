@@ -20,4 +20,4 @@ rules:
       # 匹配的域名关键词
       match: homelab.952963.xyz
       # 使用的策略
-      policy: Claw JP trojan  
+      policy:  HomeLab
