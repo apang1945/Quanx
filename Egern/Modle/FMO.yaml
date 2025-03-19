@@ -16,7 +16,7 @@ rules:
   - domain_keyword:
       match: 952963.xyz
       policy: Direct
-  - domain_suffix:
+  - domain_keyword:
       # 匹配的域名关键词
       match: homelab.952963.xyz
       # 使用的策略
